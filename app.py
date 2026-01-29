@@ -3,7 +3,7 @@ import numpy as np
 from shiny.express import ui, input, render
 
 with ui.sidebar():
-  ui.tags.h1("Repos Onsite")
+  ui.tags.h1("Repos Roadmap Review")
   ui.input_slider("n", "Number of bins", 0, 100, 20)
 
 @render.plot(alt="A histogram")
