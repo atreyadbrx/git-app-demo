@@ -10,4 +10,4 @@ with ui.sidebar():
 def histogram():
   np.random.seed(12345)
   x = 100 + 15 * np.random.randn(500)
-  plt.hist(x, input.n(), density=True)
+  plt.hist(x, input.n(), density=True, color="red")
